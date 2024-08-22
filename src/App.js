@@ -2,6 +2,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Container from "./components/Container";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -10,8 +11,14 @@ function App() {
       <Banner image='favoritos' />
       <Container>
         <body>
-          <h1>ETEC MCM</h1>
-          <p>Olá mundo!</p>
+          <h2>Curso React JS</h2>
+          <section className="cards">
+            <Card id='KsFLXOTflsM' />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </section>
         </body>
       </Container>
       <Footer />

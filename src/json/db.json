@@ -1,0 +1,32 @@
+[
+    {
+        "id": "KsFLXOTflsM",
+        "title": "Curso de React JS Aula 01 Criar Projeto React JS, Estrutura do Projeto",
+        "cover": "https://img.youtube.com/vi/KsFLXOTflsM/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=KsFLXOTflsM"
+    },
+    {
+        "id": "qFmQESnPhdE",
+        "title": "Curso de React JS Aula 02 Organizar Projeto React JS, Fragment",
+        "cover": "https://i.ytimg.com/vi/qFmQESnPhdE/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=qFmQESnPhdE"
+    },
+    {
+        "id": "r4oU-UNPCFI",
+        "title": "Curso de React JS Aula 03 Criar Componentes no React JS + CSS Module",
+        "cover": "https://i.ytimg.com/vi/r4oU-UNPCFI/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=r4oU-UNPCFI"
+    },
+    {
+        "id": "Wd-XAuQJRnY",
+        "title": "Curso de React JS Aula 04 Criar Componentes com props e children",
+        "cover": "https://i.ytimg.com/vi/Wd-XAuQJRnY/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=Wd-XAuQJRnY"
+    },
+    {
+        "id": "JSxV0ljL1rM",
+        "title": "Curso de React JS Aula 05 Criar Componente Card e mapear json",
+        "cover": "https://i.ytimg.com/vi/JSxV0ljL1rM/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=JSxV0ljL1r"
+    }
+]

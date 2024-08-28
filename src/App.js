@@ -14,7 +14,6 @@ function App() {
       <Banner image='favoritos' />
       <Container>
         <body>
-
           {/* <h2>Curso React JS</h2>
           <section className="cards">
             {videos.map(video =><Card id={video.id} key={video.id}/>)}
@@ -39,7 +38,6 @@ function App() {
           <Category category={categories[4]}>
             {filterCategory(4).map(video =><Card id={video.id} key={video.id}/>)}
           </Category>   */}
-
             {
               categories.map((category, index) =>
                 <Category category={category}> 

@@ -37,13 +37,11 @@ function App() {
           <Category category={categories[4]}>
             {filterCategory(4).map(video =><Card id={video.id} key={video.id}/>)}
           </Category>   */}
-
             {categories.map((category, index) =>
                 <Category category={category}> 
                   {filterCategory(index).map((video) => <Card id={video.id} key={video.id}/>)}
                 </Category>
               )}
-
         </body>
       </Container>
       <Footer />

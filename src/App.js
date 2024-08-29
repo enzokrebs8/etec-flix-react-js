@@ -6,7 +6,6 @@ import Card from "./components/Card";
 // import videos from "./json/videos.json";
 import Category, {categories, filterCategory} from "./components/Category";
 
-
 function App() {
   return (
     <>
@@ -38,13 +37,12 @@ function App() {
           <Category category={categories[4]}>
             {filterCategory(4).map(video =><Card id={video.id} key={video.id}/>)}
           </Category>   */}
-            {
-              categories.map((category, index) =>
+
+            {categories.map((category, index) =>
                 <Category category={category}> 
-                  {filterCategory(0).map((video) => <Card id={video.id} key={video.id}/>)}
+                  {filterCategory(index).map((video) => <Card id={video.id} key={video.id}/>)}
                 </Category>
-              )
-            }
+              )}
 
         </body>
       </Container>

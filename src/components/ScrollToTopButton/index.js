@@ -1,7 +1,7 @@
 import "./button.css";
 
 function ScrollToTopButton() {
-    
+
     const handleClick = () => {
         window.scrollTo({
             top: 0,
@@ -10,7 +10,7 @@ function ScrollToTopButton() {
     };
 
     return (
-        <button onClick={handleClick}>
+        <button className="buttonToTop" onClick={handleClick}>
             &#9650;
         </button>
     );
